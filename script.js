@@ -15,6 +15,6 @@ function handleyesClick() {
     yesButton.style.fontSize = `${currentSize * 1.5}px`;
 }
 
-function handleYesClick() {
+function handlenoClick() {
     window.location.href = "yes_page.html";
 }
