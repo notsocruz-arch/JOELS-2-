@@ -6,7 +6,7 @@ const messages = [
 
 let messageIndex = 0;
 
-function handlenoClick() {
+function handleyesClick() {
     const yesButton = document.querySelector('.yes-button');
     const noButton = document.querySelector('.no-button');
     noButton.textContent = messages[messageIndex];
