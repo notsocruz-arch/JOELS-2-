@@ -1,5 +1,5 @@
 const messages = [
- "Will u be my best frnd forever ✨🫶",
+"Will u be my best frnd forever ✨🫶",
   "ik ur busy but be my bestfrnd  ?,
 ]
     
