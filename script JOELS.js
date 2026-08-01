@@ -1,24 +1,20 @@
 const messages = [
-  "Joel is  gay",
-  "Acts Susu?",
-  "Slept with men ",
-  "Chillar guy ?",
-  "Uneducated",
-  "GAY ASF",
+ "Will u be my best frnd forever ✨🫶",
+  "ik ur busy but be my bestfrnd  ?,
 ]
     
 
 let messageIndex = 0;
 
-function handleNoClick() {
-    const noButton = document.querySelector('.no-button');
+function handleyesClick() {
     const yesButton = document.querySelector('.yes-button');
+    const noButton = document.querySelector('.no-button');
     noButton.textContent = messages[messageIndex];
     messageIndex = (messageIndex + 1) % messages.length;
     const currentSize = parseFloat(window.getComputedStyle(yesButton).fontSize);
     yesButton.style.fontSize = `${currentSize * 1.5}px`;
 }
 
-function handleYesClick() {
+function handlenoClick() {
     window.location.href = "yes_page.html";
 }
